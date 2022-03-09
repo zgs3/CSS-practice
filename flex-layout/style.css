@@ -1,0 +1,163 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  /* font-size: 62.5%; */
+  text-align: center;
+}
+
+body {
+margin: 2rem;
+min-height: 100vh;
+background-color: #ddd;
+}
+
+h2 {
+  margin: 2rem 0rem 0.5rem 0rem;
+}
+
+/* DIFFERENT BLOCKS */
+.flex-block {
+  min-width: 10rem;
+  min-height: 10rem;
+  margin: 1rem;
+  padding: 1rem;
+  border: 2px solid rebeccapurple;
+}
+
+.tall {
+  height: 20rem;
+}
+
+.short {
+  height: 6rem;
+}
+
+.wide {
+  width: 15rem;
+}
+
+.big {
+  min-height: 50rem;
+  min-width: 100%;
+}
+
+/* DIFFERENT CONTAINERS */
+.flex-container-one {
+  display: flex;
+  height: 30rem;
+  flex-direction: row;
+  align-items:flex-end;
+}
+
+.flex-container-two {
+  display: flex;
+  height: 25rem;
+  flex-direction: row-reverse;
+  align-items: flex-end;
+  flex-wrap: wrap-reverse;
+}
+
+.flex-container-three {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+
+
+.container-big {
+  height: 100rem;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.flex-container-four {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: space-around;
+}
+
+.flex-container-five {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.flex-container-six {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: space-evenly;
+}
+
+.flex-container-seven {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+/* FLEXCEPTION */
+.container {
+  display: flex;
+  height: 40rem;
+  
+  background-color: blueviolet;
+}
+
+.flex-container-eight {
+  display: flex;
+  flex-basis: 50rem;
+  width: 100%;
+  margin: 1rem;
+}
+
+.flex-container-nine {
+  display: flex;
+  flex-basis: 50rem;
+  width: 100%;
+  margin: 3.5rem 2rem;
+}
+
+.flex-container-ten {
+  display: flex;
+  width: 100%;
+  margin: 6rem 0rem;
+}
+
+.inside-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  width: 90%;
+}
+
+.inside-block-last {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  width: 90%;
+}
+
+.inside-inside {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 70%;
+  height: 20%;
+}
+
+.inside-inside-inside {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: aqua;
+  width: 20%;
+  height: 20%;
+}
